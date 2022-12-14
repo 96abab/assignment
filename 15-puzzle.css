@@ -2,6 +2,8 @@
 p{margin: 0; font: 12px/150% Arial; text-align: center; color: #888;}
 p a{color: #888;}
 
+
+
 #controls{text-align: center;}
 #controls button{
 	cursor: pointer;
@@ -10,14 +12,14 @@ p a{color: #888;}
 	margin: 25px 2px;
 	border: 0;
 	border-radius: 4px;
-	background: #001F1F;
+	background: #2b5564a9;
 	font: bold 14px Arial;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: uppercase;   
 	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
 	color: #fff;
 }
-#controls button:hover{background: #003333;}
+#controls button:hover{background: #11a4a4;}
 
 #puzzle{
 	position: relative;
@@ -25,28 +27,111 @@ p a{color: #888;}
 	height: 325px;
 	margin: 0 auto;
 	margin-top: 80px;
-	border: 8px solid #001F1F;
-	border-radius: 4px;
+	border: 8px solid #40778ba9;
+	border-radius: 8px;
 }
 #puzzle span{
 	position: absolute;
 	display: block;
 	width: 80px;
 	height: 80px;
-	border-radius: 4px;
+	border-radius: 8px;
+	/* background-image: url("image1.png"); */
 }
 #puzzle span.number{
-	cursor: pointer;
+	cursor: pointer;         
 	font: bold 36px/80px Arial;
 	text-align: center;
 	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
 	color: #fff;
 }
-#puzzle span.empty{background: transparent;}
-#puzzle span.number.light{background: #226666;}
-#puzzle span.number.dark{background: #226666;}
 
 #puzzle.animate span{
-	-webkit-transition: 0.15s left, 0.15s top;
- 	transition: 0.15s left, 0.15s top;
+	-webkit-transition: 0.5s left, 0.5s top;
+ 	transition: 0.5s left, 0.5s top;
+}
+
+#puzzle span.empty{background: transparent;}
+
+
+	
+.number1 {
+	background: url(image1.png) no-repeat;
+	background-position-x: 0;
+	background-position-y: 0;
+}
+.number2 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -80px;
+	background-position-y: 0;
+}
+.number3 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -160px;
+	background-position-y: 0;
+}
+.number4 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -240px;
+	background-position-y: 0;
+}
+.number5 {
+	background: url(image1.png) no-repeat;
+	background-position-x: 0;
+	background-position-y: -80px;
+}
+.number6 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -80px;
+	background-position-y: -80px;
+}
+.number7 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -160px;
+	background-position-y: -80px;
+}
+.number8 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -240px;
+	background-position-y: -80px;
+}
+.number9 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -0px;
+	background-position-y: -160px;
+}
+.number10 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -80px;
+	background-position-y: -160px;
+}
+.number11 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -160px;
+	background-position-y: -160px;
+}
+.number12 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -240px;
+	background-position-y: -160px;
+}
+.number13 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -0px;
+	background-position-y: -240px;
+}
+.number14 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -80px;
+	background-position-y: -240px;
+}
+.number15 {
+	background: url(image1.png) no-repeat;
+	background-position-x: -160px;
+	background-position-y: -240px;
+}
+.empty {
+	background: url(image1.png) no-repeat;
+	background-position-x: -240px;
+	background-position-y: -240px;
 }
