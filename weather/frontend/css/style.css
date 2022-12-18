@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.base {
+  width: 640px;
+  height: 870px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  /* background-image: url(../img/bg/cloudy2.jpg); */
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: auto 890px;
+}
+
+.time {
+  border-radius: 10px;
+  width: 450px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: black;
+  opacity: 0.7;
+}
+.hour {
+  border-radius: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 100px;
+  margin-left: 18px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+.min {
+  border-radius: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+.sec {
+  border-radius: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+.secmiddle {
+  border-radius: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 100px;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+}
+.year {
+  display: inline-block;
+  width: 80px;
+  margin-left: 110px;
+  color: plum;
+  text-align: center;
+  font-weight: bold;
+}
+.month {
+  display: inline-block;
+  width: 60px;
+  color: plum;
+  text-align: center;
+  font-weight: bold;
+}
+.day {
+  display: inline-block;
+  width: 60px;
+  color: plum;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.weather {
+  border-radius: 10px;
+  width: 450px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: white;
+  opacity: 0.6;
+}
+.weather .temp {
+  width: 120px;
+  height: 140px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 170px;
+  color: black;
+}
+.weather .temp p {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 85px;
+  color: black;
+}
+.weather .temp span {
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+}
+.middle-weather {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  background-color: blue;
+}
+
+.weather .city {
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  background-color: black;
+}
+.weather .city .city-str {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  line-height: 95px;
+  text-align: center;
+}
+.weather .city .max-tem {
+  display: inline-block;
+  width: 35px;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+.weather .city .min-tem {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+.weather .city .subdo {
+  display: inline-block;
+  width: 85px;
+  height: 25px;
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: aqua;
+}
+.weather .city .subdo .subdo-per {
+  color: azure;
+}
+.weather .city .rain {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  font-size: 30px;
+}
+.middleline {
+  font-size: 30px;
+  color: white;
+}
+.speed {
+  display: inline-block;
+  width: 180px;
+  height: 45px;
+  font-size: 27px;
+  margin-left: 8px;
+  margin-top: 30px;
+  color: skyblue;
+  font-weight: bold;
+}
+
+
+
+.footer {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 450px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background-color: black;
+  opacity: 0.7;
+}
+.city-text {
+  width: 400px;
+  height: 45px;
+  display: inline-block;
+  font-size: 35px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 12px;
+  text-align: center;
+}

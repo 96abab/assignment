@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Weather</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="base" style="">
+    <div class="time">
+      <span class="hour">12</span>
+      <span class="secmiddle">:</span>
+      <span class="min">30</span>
+      <span class="secmiddle">:</span>
+      <span class="sec">51</span>
+      <span class="year">2022년</span>
+      <span class="month">12월</span>
+      <span class="day">15일</span>
+    </div>
+    <div class="weather">
+      <div class="temp">
+        <p class="temp-num">9°</p>
+        <span  class="temp-str"></span>
+      </div>
+      <div class="middle-weather">
+        <img class="image" src="./img/sun.gif" width="250px">
+      </div>
+      <div class="city">
+        <span class="city-str">Seoul</span>
+        <span class="speed">풍속 : 1.8m/s</span>
+        <span class="max-tem" style="display: none;">-8°</span>
+        <span class="middleline"style="display: none;">/</span>
+        <span class="min-tem"style="display: none;">-12°</span>
+        <span class="subdo">습도: <span class="subdo-per">51%</span></span>
+      </div>
+    </div>
+    <div class="footer">
+      <input type="text" class="city-text">
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
