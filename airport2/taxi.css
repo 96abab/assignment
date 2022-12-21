@@ -1,0 +1,43 @@
+
+section {
+  /* border: 1px solid rgb(51, 58, 153); */
+  position: relative;
+  width: 700px;
+  min-height: 400px;
+  top: 50px;
+  left: 600px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+main {
+  border: 5px solid rebeccapurple;
+  border-radius: 10px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  left: 50px;
+  margin: 20px;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.taxi {
+  background-color: antiquewhite;
+  border: 3px solid antiquewhite;
+  border-radius: 5px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
+  text-align: center;
+}
+.close {
+  position: absolute;
+  height: 30px;
+  width: 60px;
+  bottom: -20px;
+  left: 370px;
+  text-align: center;
+}

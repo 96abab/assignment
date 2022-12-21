@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.popup {
+  position: absolute;
+  width: 555px;
+  height: 600px;
+  top: 300px;
+  left: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup.hide {
+  display: none;
+  
+}
+
+.hyhy {
+  width: 552px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.8;
+  position: relative;
+}
+
+.taxibox {
+  background-color: rgb(255, 176, 7);
+  border-radius: 25px;
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+}
+
+
+.taxi {
+  width: 90px;
+  position: absolute;
+  left: 85px;
+  top: 65px;
+}
+.city {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 45px;
+  font-weight: bold;
+}
+.close {
+  display: inline-block;
+  width: 70px;
+  height: 45px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+  text-align: center;
+  position: absolute;
+  left: 240px;
+  bottom: 10px;
+}
+.taxiCnt {
+  position: absolute;
+  background-color: gold;
+  border-radius: 20px;
+  width: 230px;
+  bottom: 10px;
+  left: 10px;
+  font-size: 34px;
+  font-weight: bold;
+  color: purple;
+  text-align: center;
+}
