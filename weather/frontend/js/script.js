@@ -28,12 +28,12 @@ function bitweather() {
   }else if(hour > 11) {
     sendhour = 11;
   }else if(hour > 8) {
-    sendhour = 8;
+    sendhour = "08";
   }else if(hour > 5) {
-    sendhour = 5;
+    sendhour = "05";
   }
   // xhr.open("GET", "https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey=y3igO1ZwlipiZaS1ao6Jc3pQiq8yXTrYxfzw6lsZkpMUE1h6ui86SK2Gnfu5P8MvD5ssg3pqXanFI18DuvmhBQ%3D%3D&pageNo=1&numOfRows=12&dataType=JSON&base_date=202212" + day + "&base_time=" + sendhour + "00&nx=61&ny=125", false) // nodejs 없이 웹 브라우저에서 요청하는경우
-  xhr.open("GET", "http://localhost:3000/weather?day=" + day + "&hour=" + sendhour, false)
+  xhr.open("GET", "http://192.168.0.6/weather?day=" + day + "&hour=" + sendhour, false)
   
   xhr.send();
   i = JSON.parse(xhr.responseText); // 기상 정보 JSON 타입 저장 변수
